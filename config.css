@@ -1,8 +1,26 @@
-body {
-    max-width: 1600px;
-    margin: auto;
 
-    display: grid;
-    grid-template-columns: 30rem 1fr;
-    grid-template-rows: 6rem 1fr 10rem;
+:root {
+  --header-bg-color: green;
+  --header-text-color: white;
+  --section-bg-color: white;
+  --block-bg-color: orange;
+  --block-text-color: white;
+  --footer-bg-color: gray;
+  --footer-text-color: white;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header, section, footer {
+  padding: 10px;
+}
+
+.bloque {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2em;
 }
